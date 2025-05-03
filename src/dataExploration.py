@@ -71,3 +71,6 @@ df['Number_of_Reviews'] = np.log1p(df['Number_of_Reviews'])
 # %%
 df['Number_of_Reviews']
 # %%
+df.to_csv('../data/product_performance.csv', index=False)
+
+# %%
